@@ -1,13 +1,13 @@
-import { Button } from '@components/ui/button'
-import { Input } from '@components/ui/input'
+import { Footer } from '@components/footer'
+import { Navbar } from '@components/navbar'
 
 export const App = () => {
   return (
-    <>
-      <div className="text-2xl rounded-lg">test</div>
-      <Button>Тест</Button>
-      <Button size="full">Тест</Button>
-      <Input placeholder="test" />
-    </>
+    <div className="flex justify-center h-screen">
+      <div className="flex flex-col justify-between h-full w-[1520px]">
+        <Navbar />
+        <Footer />
+      </div>
+    </div>
   )
 }
