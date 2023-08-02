@@ -1,8 +1,8 @@
 export interface SpritesMap {
-  icons: 'logo-title' | 'vite' | 'logo-with-text' | 'logo' | 'menu'
+  icons: 'logo-title' | 'logo-with-text' | 'logo' | 'menu' | 'vite'
 }
 export const SPRITES_META = {
-  icons: ['logo-title', 'vite', 'logo-with-text', 'logo', 'menu'],
+  icons: ['logo-title', 'logo-with-text', 'logo', 'menu', 'vite'],
 } satisfies {
-  icons: Array<'logo-title' | 'vite' | 'logo-with-text' | 'logo' | 'menu'>
+  icons: Array<'logo-title' | 'logo-with-text' | 'logo' | 'menu' | 'vite'>
 }

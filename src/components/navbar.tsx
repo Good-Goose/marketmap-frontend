@@ -8,7 +8,7 @@ import { Button } from './ui/button'
 
 export const Navbar = () => {
   return (
-    <div className="flex items-center w-full  py-2 px-6">
+    <div className="flex items-center w-full">
       <div className="inline-flex w-1/2 lg:justify-start items-center">
         <img
           src="src/assets/icons/logo-with-text.svg"
