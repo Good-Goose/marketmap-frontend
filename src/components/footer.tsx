@@ -1,3 +1,4 @@
+import logoTitle from 'assets/icons/logo-title.svg'
 import { Button } from './ui/button'
 
 export const Footer = () => {
@@ -5,7 +6,7 @@ export const Footer = () => {
     <footer>
       <div className="flex items-center w-full ">
         <div className="inline-flex w-full lg:w-1/2  justify-center lg:justify-start items-center">
-          <img src="src/assets/icons/logo-title.svg" alt="" />
+          <img src={logoTitle} alt="" />
         </div>
         <div className=" w-1/2  hidden lg:inline-flex justify-end items-center">
           <Button variant="link">Главная</Button>

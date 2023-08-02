@@ -4,22 +4,17 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@radix-ui/react-dropdown-menu'
+import logo from 'assets/icons/logo.svg'
+import logoWithText from 'assets/icons/logo-with-text.svg'
+import menu from 'assets/icons/menu.svg'
 import { Button } from './ui/button'
 
 export const Navbar = () => {
   return (
     <div className="flex items-center w-full">
       <div className="inline-flex w-1/2 lg:justify-start items-center">
-        <img
-          src="src/assets/icons/logo-with-text.svg"
-          alt=""
-          className="hidden lg:block"
-        />
-        <img
-          src="src/assets/icons/logo.svg"
-          alt=""
-          className="block lg:hidden"
-        />
+        <img src={logoWithText} alt="" className="hidden lg:block" />
+        <img src={logo} alt="" className="block lg:hidden" />
       </div>
       <div className="inline-flex w-1/2">
         <div className="w-full hidden lg:inline-flex justify-end items-center">
@@ -32,7 +27,7 @@ export const Navbar = () => {
         <div className="w-full inline-flex lg:hidden justify-end items-center">
           <DropdownMenu>
             <DropdownMenuTrigger>
-              <img src="src/assets/icons/menu.svg" alt="" />
+              <img src={menu} alt="" />
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuItem>
