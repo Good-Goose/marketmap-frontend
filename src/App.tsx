@@ -10,8 +10,8 @@ export const App = () => {
           <Navbar />
         </div>
       </div>
-      <div className="flex justify-center bg-[#f1faff]">
-        <div className="flex flex-col justify-between h-full w-[1520px] py-3 px-6">
+      <div className="flex justify-center bg-[#fbfbff]">
+        <div className="flex flex-col justify-between h-full w-full">
           <Landing />
         </div>
       </div>
