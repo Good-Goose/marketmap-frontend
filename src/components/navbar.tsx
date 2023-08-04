@@ -14,7 +14,7 @@ export const Navbar = () => {
     <div className="flex items-center w-full">
       <div className="inline-flex w-1/2 xl:justify-start items-center">
         <img src={logoWithText} alt="" className="hidden xl:block" />
-        <img src={logo} alt="" className="block lg:hidden" />
+        <img src={logo} alt="" className="block xl:hidden" />
       </div>
       <div className="inline-flex w-1/2">
         <div className="w-full hidden xl:inline-flex justify-end items-center">
